@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <!-- Toggle Button -->
+        <label class="switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider round"></span>
+        </label>
+
+        <!-- Search Bar with Dropdown -->
+        <div class="search-container">
+            <input placeholder="Search..." type="text" name="text" class="input" />
+            <div class="search-dropdown">
+                <a href="#about">About Me</a>
+                <a href="#work">Previous Work</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </header>
+    <div class="loader-wrapper">
+      <span class="loader-letter">L</span>
+      <span class="loader-letter">o</span>
+      <span class="loader-letter">a</span>
+      <span class="loader-letter">d</span>
+      <span class="loader-letter">i</span>
+      <span class="loader-letter">n</span>
+      <span class="loader-letter">g</span>
+      <span class="loader-letter">.</span>
+      <span class="loader-letter">.</span>
+      <span class="loader-letter">.</span>
+
+      <div class="loader"></div>
+    </div>
+
+    <main id="main-content">
+        <section id="introduction">
+            <h1>Who Am I?</h1>
+            <p>I am a passionate web developer and Discord bot creator with a keen interest in building engaging digital experiences. Skilled in coding and creative design, I enjoy crafting interactive websites and managing vibrant online communities. Beyond coding, I am an avid anime and gaming enthusiast, always exploring new technologies and AI tools to enhance my projects and creativity.</p>
+        </section>
+
+        <section id="about">
+            <h2>My Skills</h2>
+            <div class="card-grid">
+                <div class="card large">
+                    <div class="card-info">
+                        <p class="title">Web Development</p>
+                    </div>
+                </div>
+                <div class="card small">
+                    <div class="card-info">
+                        <p class="title">Discord Bot Creation</p>
+                    </div>
+                </div>
+                <div class="card small">
+                    <div class="card-info">
+                        <p class="title">AI Tool Expertise</p>
+                    </div>
+                </div>
+                <div class="card large">
+                    <div class="card-info">
+                        <p class="title">Creative Content Creation</p>
+                    </div>
+                </div>
+                <div class="card small">
+                    <div class="card-info">
+                        <p class="title">Community Management</p>
+                    </div>
+                </div>
+                <div class="card small">
+                    <div class="card-info">
+                        <p class="title">Problem Solving</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work">
+            <h2>Previous Work</h2>
+            <div class="card-grid">
+                <div class="card large">
+                    <div class="card-info">
+                        <a href="https://shifosan.github.io/Make-Your-Own-Webpage-with-AI/" class="title">My Business Webpage</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <button class="glow-on-hover" type="button">CONTACT ME!</button>
+            <h2>Social Details-</h2>
+            <ul>
+                <li>Discord Server: <a href="https://discord.gg/dqFPr9erdJ">https://discord.gg/dqFPr9erdJ</a></li>
+                <li>X: ShifoSan</li>
+                <li>Pinterest: ShifoSan</li>
+                <li>guns.lol: shifosan</li>
+                <li>Youtube: @ShifoSanLabs</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
